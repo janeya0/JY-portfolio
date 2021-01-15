@@ -1,0 +1,407 @@
+/* general body*/
+body {
+  background-color: white;
+  margin-bottom: 0px;
+  font-family: 'Merriweather', serif;
+  font-size: 0.85vw;
+  /*overflow-x: hidden;*/
+}
+
+.heading-1 {
+  margin-left: 7%;
+  width: 100%;
+  height: auto;
+  text-align: left;
+}
+
+/*Scroll to top*/
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 13px;
+  border: 2px solid white;
+  outline: none;
+  background-color: none;
+  color: #4f6367;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 10px;
+  font-family: 'Merriweather', serif;
+}
+
+#myBtn:hover {
+  background-color: white;
+  border: 2px solid #ffc482;
+  font-family: 'Merriweather', serif;
+  color: #4f6367;
+  transition: 0.8s ease;
+}
+
+.name {
+  font-size: 13vw;
+  font-family: 'Playfair Display', serif;
+  background-color: ;
+  margin-top: 0.5;
+  line-height: 0.8;
+  opacity: 0;
+  max-width: 100%;
+  -webkit-transform: translateY(4em);
+          transform: translateY(4em);
+  -webkit-transition: opacity 1.0 .30s ease-out,
+              -webkit-transform 4s .30s cubic-bezier(0,1,.3,1);
+  transition: opacity 1.0s .30s ease-out,
+              -webkit-transform 4s .30s cubic-bezier(0,1,.3,1);
+  transition: transform 4s .30s cubic-bezier(0,1,.3,1),
+              opacity 1.0s .30s ease-out;
+  transition: transform 4s .30s cubic-bezier(0,1,.3,1),
+              opacity 1.0s .30s ease-out,
+              -webkit-transform 4s .30s cubic-bezier(0,1,.3,1);
+  will-change: transform, opacity;
+}
+
+.name.is-visible {
+  opacity: 1;
+  -webkit-transform: rotateZ(0deg);
+}
+
+.pic-filler {
+  height: 13em;
+}
+
+
+#body-description {
+  background-image: url('jane_aboutme_pic2.jpg');
+  width: 37%;
+  height: auto;
+  float: left;
+  margin-left: 7%;
+  margin-top: 2em;
+  background-size: contain;
+}
+
+ img {
+  -webkit-transition: all ease 1s;
+	-moz-transition: all ease 1s;
+	-o-transition: all ease 1s;
+	-ms-transition: all ease 1s;
+	transition: all ease 1s;
+}
+
+ img:hover {
+  opacity: 0;
+}
+
+.aboutme-text {
+  width: 42%;
+  background-color: ;
+  margin-right: 7%;
+  margin-top: 0;
+  float: right;
+}
+
+.text {
+  line-height: 1.9;
+  font-size: 1vw;
+}
+
+.text a {
+    color:#f4ac45;
+}
+
+
+
+.parallax-section {
+    margin-right: 80px;
+    background-color: ;
+    margin-bottom: 200px;
+    max-height: 80%;
+    margin-left: 80px;
+}
+
+.parallax-A {
+  /* The image used */
+  background-image: url("jane-football.jpg");
+
+  /* Full height 70vh 124vh*/
+  width: 34%;
+  height: 70%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-right: 3vw;
+  float: right;
+  background-color: ;
+}
+
+
+
+.sports-section {
+  background-color:;
+  margin-top: 70%;
+  overflow: auto;
+  width: 100%;
+  z-index: 1;
+}
+
+.sports-text {
+  line-height: 1.9;
+  width: 50%;
+  margin-left: 5%;
+  margin-right: 5%;
+  overflow-y: hidden;
+  float: left;
+  min-height:10%;
+  max-height: 60%;
+  text-align: left;
+  background-color: ;
+  z-index: 100;
+    font-size: 1vw;
+}
+
+.music-section {
+  background-color:;
+  overflow: auto;
+}
+
+.music-text {
+  line-height: 1.9;
+  margin-left: 7%;
+  margin-right: 2%;
+  margin-top: -2%;
+  float: left;
+  width: 46%;
+  background-color: ;
+  height: auto;
+  text-align: left;
+    font-size: 1vw;
+}
+
+.parallax-B {
+  /* The image used */
+  background-image: url("unsplash_piano.jpg");
+
+  /* Full height */
+  width: 40%;
+  height: 75%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: contain;
+  float: left;
+  background-color:;
+}
+
+.parallax-C {
+  /* The image used */
+  background-image: url("artpic.jpg");
+
+  /* Full height 70vh 124vh*/
+  width: 34%;
+  height: 73%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding-right: 3vw;
+  float: right;
+  background-color: ;
+}
+
+.art-section {
+  background-color:;
+  width:100%;
+  overflow: overlay;
+}
+
+.art-text {
+  line-height: 1.9;
+  float: left;
+  width: 50%;
+  height: 40%;
+  margin-left: 5%;
+  text-align: left;
+  background-color: ;
+  overflow-y: hidden;
+  font-size: 1vw;
+}
+
+
+
+
+
+
+
+.parallax-volunteering {
+  /* The image used */
+  background-image: url("oyecpic.jpg");
+
+  /* Full height */
+  height: 60%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  transition: 0.5s ease;
+  padding-top: 60vh;
+}
+
+.parallax-volunteering:hover {
+  opacity: 0.83;
+}
+
+.mb_parallax_overlay {
+  height: 10.5vh;
+  width: 20vw;
+  background-color: #e1f4cb;
+  opacity: .9;
+  transition: 0.5s ease;
+  border-radius: 25px;
+}
+
+.mb_parallax_overlay:hover {
+  opacity: 1;
+  background-color: white;
+  color: black;
+}
+
+.mb_parallax_overlay h2 {
+  padding-top: 3vh;
+  font-size: 7vh;
+  color: #3f4739;
+  text-align: center;
+  text-decoration: none;
+}
+
+.underline-parallax {
+  text-align: center;
+  width: 100%;
+  font-family: 'Merriweather', serif;
+  font-size: 2vh;
+  background-color: ;
+  color: #3f4739;
+  padding: 0px;
+  display: inline-block;
+}
+
+.underline-parallax ul{
+  padding: 0;
+  list-style: none;
+  width: 80%;
+  text-align: center;
+  margin-top: 0;
+  display: inline-block;
+  /*position: absolute;
+  bottom: 0;*/
+}
+
+li {
+  display: inline;
+}
+
+.underline-parallax a.one {
+  text-decoration: none;
+  display: inline-block;
+  padding: 3px 12px;
+  position: relative;
+  color: #3f4739;
+}
+
+a.one:after {
+  background: none repeat scroll 0 0 transparent;
+  display: block;
+  height: 2px;
+  left: 100%;
+  position: absolute;
+  background: #5f7470;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a.one:hover:after {
+  width: 100%;
+  left: 30;
+}
+@media screen and (max-height: 300px) {
+	ul {
+		margin-top: 0px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+.foot {
+  position: fixed;
+  bottom: 12;
+  text-align: center;
+  width: 100%;
+  font-family: 'Merriweather', serif;
+  font-size: 13px;
+  background-color: ;
+  color: #3f4739;
+  padding: 5px;
+  height: 30px;
+}
+
+.foot ul{
+  /*margin: 150px auto 0;*/
+  padding: 0;
+  list-style: none;
+  display: table;
+  width: 97%;
+  text-align: center;
+  /*position: absolute;
+  bottom: 0;*/
+}
+
+li {
+  display: inline;
+}
+
+.foot a.one {
+  text-decoration: none;
+  display: inline-block;
+  padding: 5px 10px;
+  position: relative;
+  color: #4f6367;
+}
+
+a.one:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 2px;
+  left: 30%;
+  position: absolute;
+  background: #ffc482;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+a.one:hover:after {
+  width: 75%;
+  left: 11;
+}
+@media screen and (max-height: 300px) {
+	ul {
+		margin-top: 40px;
+	}
+}
